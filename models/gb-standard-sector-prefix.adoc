@@ -1,0 +1,74 @@
+= GbStandardSectorPrefix values
+
+[cols="1,3,1,5"]
+|===
+| Industry standard code | Industry standard name | Administrations
+
+| AQ | Production safety               | State Administration of Work Safety
+| BB | Packaging                       | China National Packaging Industry Corporation
+| CB | Ships                           | National Defense Commission
+| CH | Surveying and Mapping           | National Bureau of Surveying and Mapping
+| CJ | Town construction               | Ministry of Construction
+| CY | News Publishing                 | State Press and Publication Administration
+| DA | Archiving                       | National Archives
+| DB | Seismology                      | National Seismological Bureau
+| DL | Electricity                     | State Economic and Trade Commission
+| DZ | Geological and mineral products | Ministry of Land and Resources
+| EJ | Nuclear Industry                | National Defense Commission
+| FZ | Textile                         | State Economic and Trade Commission
+| GA | Public safety                   | Ministry of Public Security
+| GH | Supply and marketing            | China Federation of Supply and Marketing Cooperatives
+| GM | Cryptography                    | State Administration Of Cryptography
+| GY | Radio, film and television      | State Administration of Radio, Film and Television
+| HB | Aviation                        | National Defense Commission
+| HG | Chemical industry               | State Economic and Trade Commission
+| HJ | Environmental protection        | State Environmental Protection Administration
+| HS | Customs                         | General Administration of Customs
+| HY | Oceanic                         | State Oceanic Administration
+| JB | Mechanical                      | State Economic and Trade Commission
+| JC | Building materials              | State Economic and Trade Commission
+| JG | Construction Industry           | Ministry of Construction
+| JR | Financial                       | People's Bank of China
+| JT | Traffic                         | Ministry of Communications
+| JY | Education                       | Ministry of Education
+| LB | Tourism                         | National Tourism Bureau
+| LD | Labor and work safety           | Ministry of Labor and Social Security
+| LS | Food                            | National Food Administration
+| LY | Forestry                        | State Forestry Administration
+| MH | Civil Aviation                  | Civil Aviation Administration
+| MT | Coal                            | State Economic and Trade Commission
+| MZ | Civil affairs                   | Ministry of Civil Affairs
+| NY | Agriculture                     | Ministry of Agriculture
+| QB | Light industry                  | State Economic and Trade Commission
+| QC | Automobile                      | State Economic and Trade Commission
+| QJ | Aerospace                       | National Defense Commission
+| QX | Meteorological                  | China Meteorological Administration
+| SB | Business                        | State Economic and Trade Commission
+| SC | Aquatic products                | Ministry of Agriculture
+| SH | Petrochemical                   | State Economic and Trade Commission
+| SJ | Electronics                     | Ministry of Information Industry
+| SL | Water resources                 | Ministry of Water Resources
+| SN | Inspection                      | General Administration of Quality Supervision, Inspection and Quarantine
+| SY | Natural gas                     | State Economic and Trade Commission
+| TB | Rail transport                  | Ministry of Railways
+| TJ | Railway traffic                 | Ministry of Railways Standards
+| TD | Land management                 | Ministry of Land and Resources
+| TY | Sports                          | National Department of Sport
+| WB | Material management             | State Economic and Trade Commission
+| WH | Culture                         | Ministry of Culture
+| WJ | Ordnance                        | National Defense Commission
+| WM | Foreign Trade                   | Ministry of Foreign Trade and Economic Cooperation
+| WS | Health                          | Ministry of Health
+| WW | Cultural relics protection      | National Heritage Board
+| XB | Rare earth                      | State Planning Commission Rare Earth Office
+| YB | Ferrous metallurgy              | State Economic and Trade Commission
+| YC | Tobacco                         | State Tobacco Monopoly Bureau
+| YD | Communication                   | Ministry of Information Industry
+| YS | Non-ferrous metallurgy          | State Economic and Trade Commission
+| YY | Medicine                        | State Food and Drug Administration
+| YZ | Postal                          | State Post Office
+| ZY | Chinese medicine                | State Administration of Traditional Chinese Medicine
+
+|===
+
+

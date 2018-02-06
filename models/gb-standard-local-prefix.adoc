@@ -1,0 +1,42 @@
+= GbStandardLocalPrefix values
+
+[cols="1,4"]
+|===
+| Location | Code
+
+| 11 | Beijing City
+| 12 | Tianjin
+| 13 | Hebei Province
+| 14 | Shanxi Province
+| 15 | Inner Mongolia Autonomous Region
+| 21 | Liaoning Province
+| 22 | Jilin Province
+| 23 | Heilongjiang Province
+| 31 | Shanghai
+| 32 | Jiangsu Province
+| 33 | Zhejiang Province
+| 34 | Anhui Province
+| 35 | Fujian Province
+| 36 | Jiangxi Province
+| 37 | Shandong Province
+| 41 | Henan Province
+| 42 | Hubei Province
+| 43 | Hunan Province
+| 44 | Guangdong Province
+| 45 | Guangxi Zhuang Autonomous Region
+| 46 | Hainan
+| 50 | Chongqing
+| 51 | Sichuan Province
+| 52 | Guizhou Province
+| 53 | Yunnan Province
+| 54 | Tibet Autonomous Region
+| 61 | Shaanxi Province
+| 62 | Gansu province
+| 63 | Qinghai Province
+| 64 | Ningxia Hui Autonomous Region
+| 65 | Xinjiang Uygur Autonomous Region
+| 71 | Taiwan Province
+| 81 | Hong Kong Special Administrative Region
+| 82 | Macao Special Administrative Region
+
+|===
