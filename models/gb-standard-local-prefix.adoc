@@ -1,42 +1,42 @@
 = GbStandardLocalPrefix values
 
-[cols="1,4"]
+[cols="1,3,2"]
 |===
-| Location | Code
+| Code | Location (English)                      | Location (Chinese)
 
-| 11 | Beijing City
-| 12 | Tianjin
-| 13 | Hebei Province
-| 14 | Shanxi Province
-| 15 | Inner Mongolia Autonomous Region
-| 21 | Liaoning Province
-| 22 | Jilin Province
-| 23 | Heilongjiang Province
-| 31 | Shanghai
-| 32 | Jiangsu Province
-| 33 | Zhejiang Province
-| 34 | Anhui Province
-| 35 | Fujian Province
-| 36 | Jiangxi Province
-| 37 | Shandong Province
-| 41 | Henan Province
-| 42 | Hubei Province
-| 43 | Hunan Province
-| 44 | Guangdong Province
-| 45 | Guangxi Zhuang Autonomous Region
-| 46 | Hainan
-| 50 | Chongqing
-| 51 | Sichuan Province
-| 52 | Guizhou Province
-| 53 | Yunnan Province
-| 54 | Tibet Autonomous Region
-| 61 | Shaanxi Province
-| 62 | Gansu province
-| 63 | Qinghai Province
-| 64 | Ningxia Hui Autonomous Region
-| 65 | Xinjiang Uygur Autonomous Region
-| 71 | Taiwan Province
-| 81 | Hong Kong Special Administrative Region
-| 82 | Macao Special Administrative Region
+| 11   | Beijing City                            | 北京市
+| 12   | Tianjin                                 | 天津市
+| 13   | Hebei Province                          | 河北省
+| 14   | Shanxi Province                         | 山西省
+| 15   | Inner Mongolia Autonomous Region        | 内蒙古自治区
+| 21   | Liaoning Province                       | 辽宁省
+| 22   | Jilin Province                          | 吉林省
+| 23   | Heilongjiang Province                   | 黑龙江省
+| 31   | Shanghai                                | 上海市
+| 32   | Jiangsu Province                        | 江苏省
+| 33   | Zhejiang Province                       | 浙江省
+| 34   | Anhui Province                          | 安徽省
+| 35   | Fujian Province                         | 福建省
+| 36   | Jiangxi Province                        | 江西省
+| 37   | Shandong Province                       | 山东省
+| 41   | Henan Province                          | 河南省
+| 42   | Hubei Province                          | 湖北省
+| 43   | Hunan Province                          | 湖南省
+| 44   | Guangdong Province                      | 广东省
+| 45   | Guangxi Zhuang Autonomous Region        | 广西壮族自治区
+| 46   | Hainan                                  | 海南省
+| 50   | Chongqing                               | 重庆市
+| 51   | Sichuan Province                        | 四川省
+| 52   | Guizhou Province                        | 贵州省
+| 53   | Yunnan Province                         | 云南省
+| 54   | Tibet Autonomous Region                 | 西藏自治区
+| 61   | Shaanxi Province                        | 陕西省
+| 62   | Gansu province                          | 甘肃省
+| 63   | Qinghai Province                        | 青海省
+| 64   | Ningxia Hui Autonomous Region           | 宁夏回族自治区
+| 65   | Xinjiang Uygur Autonomous Region        | 新疆维吾尔自治区
+| 71   | Taiwan Province                         | 台湾省
+| 81   | Hong Kong Special Administrative Region | 香港特别行政区
+| 82   | Macao Special Administrative Region     | 澳门特别行政区
 
 |===

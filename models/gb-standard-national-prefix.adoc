@@ -1,0 +1,21 @@
+= GbStandardNationalPrefix values
+
+[cols="1,3,3,3,3"]
+|===
+| Standard code          | Standard name (English)                       | Standard name (Chinese)                | Administration (English)                                                                                          | Administration (Chinese)
+
+| GB                     | National standard                             | 中华人民共和国国家标准                 | General Administration of Quality Supervision, Inspection and Quarantine; Standardization Administration of China | 中华人民共和国国家质量监督检验检疫总局，中国国家标准化管理委员会
+| GB/T                   | National standard (Recommended)               | 中华人民共和国国家标准                 | General Administration of Quality Supervision, Inspection and Quarantine                                          | 国家质量监督检验检疫总局
+| GB/Z                   | Standardized guidelines                       | 中华人民共和国国家标准化指导性技术文件 | General Administration of Quality Supervision, Inspection and Quarantine                                          | 国家质量监督检验检疫总局
+| GBZ                    | National occupational health standards        | 中华人民共和国国家职业卫生标准         | Ministry of Health                                                                                                | 中华人民共和国卫生部
+| GJB                    | National military standards                   | 中华人民共和国国家军用标准             | Chinese People's Liberation Army equipment headquarters                                                           | 中国人民解放军装备总部
+| GBn (no sample found)  | National internal standards                   | 中华人民共和国国家内部标准             |                                                                                                                   |
+| GHZB (no sample found) | National environmental quality standards      | 中华人民共和国国家环境质量标准         |                                                                                                                   |
+| GWKB                   | National Environmental Protection Standards   | 中华人民共和国国家环境保护标准         | Ministry of Environmental Protection                                                                              | 环境保护部
+| GWPB (no sample found) | National pollutant discharge standards        | 中华人民共和国国家污染物排放标准       |                                                                                                                   |
+| JJF                    | National calibration specifications           | 中华人民共和国国家计量技术规范         | General Administration of Quality Supervision, Inspection and Quarantine                                          | 国家质量监督检验检疫总局
+| JJG                    | National calibration verification regulations | 中华人民共和国国家计量检定规程         | General Administration of Quality Supervision, Inspection and Quarantine                                          | 国家质量监督检验检疫总局
+
+|===
+
+
