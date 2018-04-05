@@ -15,3 +15,7 @@ image::images/gbdoc.png[]
 
 image::images/gbstandardprefix.png[]
 
+
+== GB Standard Document cover page elements
+
+image::images/gb-standard-coverpage-elements.png[]
