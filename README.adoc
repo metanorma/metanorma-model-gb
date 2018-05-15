@@ -1,19 +1,20 @@
-= GbDoc Models
+= Metanorma GbDoc Models
 
-This is where we keep the GbDoc model definitions.
+This is where we keep the Metanorma GbDoc model definitions.
 
 The GbDoc format is an instance of the
-https://github.com/riboseinc/isodoc-models[IsoDoc model].
+https://github.com/riboseinc/isodoc-models[Metanorma IsoDoc model].
 
 Details of the parent model can be found on its page.
 
-== GbDoc Model
 
-image::images/gbdoc.png[]
+== GbDoc Models
 
-== GbStandardPrefix
+image::images/png/GbDocModel__GbDocModel_0.png[]
 
-image::images/gbstandardprefix.png[]
+== GbStandardPrefix Model
+
+image::images/png/GbDocModel__GbStandardPrefix_1.png[]
 
 
 == GB Standard Document cover page elements
