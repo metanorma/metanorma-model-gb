@@ -10850,7 +10850,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhapLN9hEKgFE="
 							},
-							"name": "QC_automobile",
+							"name": "QC_automotive",
 							"visibility": "public"
 						},
 						{
@@ -12519,7 +12519,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "QC_automobile",
+											"text": "QC_automotive",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
