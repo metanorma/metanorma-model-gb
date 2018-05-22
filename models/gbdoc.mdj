@@ -10697,7 +10697,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhapLN9hEKgFE="
 							},
-							"name": "SL_forestry",
+							"name": "SL_water_resources",
 							"visibility": "public"
 						},
 						{
@@ -10841,7 +10841,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhapLN9hEKgFE="
 							},
-							"name": "JB_mechjanical",
+							"name": "JB_mechanical",
 							"visibility": "public"
 						},
 						{
@@ -10922,7 +10922,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFhapLN9hEKgFE="
 							},
-							"name": "T_traffic",
+							"name": "JT_traffic",
 							"visibility": "public"
 						},
 						{
@@ -11229,6 +11229,15 @@
 								"$ref": "AAAAAAFhapLN9hEKgFE="
 							},
 							"name": "ZY_chinese_medicine",
+							"visibility": "public"
+						},
+						{
+							"_type": "UMLEnumerationLiteral",
+							"_id": "AAAAAAFjhbs3A2QzQR8=",
+							"_parent": {
+								"$ref": "AAAAAAFhapLN9hEKgFE="
+							},
+							"name": "LY_forestry",
 							"visibility": "public"
 						}
 					]
@@ -12017,7 +12026,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "SL_forestry",
+											"text": "SL_water_resources",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -12481,7 +12490,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "JB_mechjanical",
+											"text": "JB_mechanical",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -12742,7 +12751,7 @@
 											"height": 13,
 											"autoResize": false,
 											"underline": false,
-											"text": "T_traffic",
+											"text": "JT_traffic",
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
@@ -13732,6 +13741,35 @@
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
+										},
+										{
+											"_type": "UMLEnumerationLiteralView",
+											"_id": "AAAAAAFjhbs3ImQ2BfE=",
+											"_parent": {
+												"$ref": "AAAAAAFhapppAx+NufY="
+											},
+											"model": {
+												"$ref": "AAAAAAFjhbs3A2QzQR8="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#000000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 263,
+											"top": 1156,
+											"width": 171.8818359375,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "LY_forestry",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
 										}
 									],
 									"visible": true,
@@ -13746,7 +13784,7 @@
 									"left": 258,
 									"top": 221,
 									"width": 181.8818359375,
-									"height": 938,
+									"height": 953,
 									"autoResize": false
 								}
 							],
@@ -13762,7 +13800,7 @@
 							"left": 258,
 							"top": 183,
 							"width": 181.8818359375,
-							"height": 976,
+							"height": 991,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -16141,7 +16179,7 @@
 									"containerExtending": false,
 									"left": 1056,
 									"top": 209,
-									"width": 217.80322265625,
+									"width": 212,
 									"height": 38,
 									"autoResize": false
 								},
