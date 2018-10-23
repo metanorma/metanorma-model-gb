@@ -1,0 +1,10 @@
+language: java
+install:
+  - travis_retry sudo apt-get update
+  - travis_retry sudo apt-get install -y graphviz
+  - travis_retry sudo apt-get install -y plantuml
+env:
+  - JAVA_OPTS="java.awt.headless=true"
+script:
+  - plantuml -testdot
+  - make all
