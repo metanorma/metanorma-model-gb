@@ -1,0 +1,126 @@
+@startuml GbDoc_GbDoc
+/'
+Diagram:        GbDoc_GbDoc
+DateCreate:     22/08/2018
+Description:    This is where we keep the Metanorma GbDoc model definitions.
+                The GbDoc format is an instance of the Metanorma IsoDoc model.
+                Details of the parent model can be found on its page.
+
+Hystory of changes:
+> 31/08/2018
+    - Enumeration type GbDocumentType has been updated. plus sign as a prefix has been removed from all items in the enumeration
+'/
+
+!include style.uml.inc
+
+'******* CLASS DEFINITION *********************************************
+class IsoStandardDocument {
+
+}
+
+class GbStandardDocument{
+
+}
+
+class IsoBibliographicItem{
+
+}
+
+class GbBibliographicItem{
+    +committee: GbTechnicalCommittee[0..1]
+    +gbtype: GbStandardType
+    +topic: GbStandardTopic[0..1]
+    +ccs: Ccs[1..*]
+    +planNumber: String[0..1]
+    +type: GbDocumentType
+}
+
+class Ccs{
+    +code: String
+    +text: String[0..1]
+}
+
+class GbTechnicalCommittee{
+    +type: GbtechnicalCommitteeType
+    +name: String
+}
+
+class GbStandardType{
+    +scope: GbStandardScope
+    +prefix: GbStandardPrefix
+    +mandate: GbStandardMandate
+}
+
+class GbStandardPrefix{
+
+}
+
+enum GbTechnicalCommitteeType <<enumeration>>{
+    technical
+    provisional
+}
+
+enum GbStandardScope <<enumeration>>{
+    natural
+    sector
+    professional
+    local
+    enterprise
+    social_group
+}
+
+enum GbStandardMandate <<enumeration>>{
+    mandatory
+    recommended
+    guideline
+}
+
+enum GbStandardTopic <<enumeration>>{
+    basic
+    health_and_safety
+    environment_protection
+    engineering_and_construction
+    product
+    method
+    management_techniques
+    others
+}
+
+enum GbDocumentType <<enumeration>>{
+    internatioanlStandard
+    technicalSpecification
+    technicalReport
+    publiclyAvailableSpecification
+    internationalWorkshopAgreement
+    guide
+    recommendation
+}
+
+'******* NOTES ********************************************************
+note "planNumber: Plan number registered at the General\nAdministration of Quality Supervision, Inspection\nand Quarantine.计划项目编号, 国家技术监督局的国\n家标准制定计划中的项目编号。\nAdoption from international standards is achieved\nusing BibliographicItem.relations:\n- identical(等同采用)\n- equivalent(等效采用)\n- nonequivalent(参照采用)\nStandard state (active, pending_active, revoked) is\nmodeled using BibliographicDate:\n- activated (Current, 现行)\n- published (Pending activition, 即将实施)\n- obsoleted (Revoked, 废止)" as N1
+note left of Ccs: See https://github.com/riboseinc/cn-ccs-codes\nfor CCS codes
+note bottom of GbStandardScope: GbStandardScope\n国家标准种类\n- national 国家标准\n- section 行业标准\n- professional 专业标准\n- local 地方标准\n- enterprise 企业标准\n- social_group 社会团体标准
+note bottom of GbStandardMandate: GbStandardMandate\n- 'recommended' standards have suffix '/T' (推荐)\n- 'guideline' standards have suffix '/Z' (指南)
+note bottom of GbStandardTopic: GbStandardTopic\n国家标准类别\n-基础\n- 安全卫生\n- 环境保护\n- 工程建设\n- 产品\n- 方法\n- 管理技术\n- 其他
+
+'******* CLASS RELATIONS **********************************************
+IsoStandardDocument <|-- GbStandardDocument
+
+IsoBibliographicItem <|-- GbBibliographicItem
+GbStandardDocument <-- GbBibliographicItem
+
+GbBibliographicItem <-- Ccs
+GbBibliographicItem <-- GbTechnicalCommittee
+GbBibliographicItem <-- GbStandardType
+GbBibliographicItem <-- GbStandardTopic
+GbBibliographicItem <-- GbDocumentType
+
+
+GbTechnicalCommittee <-- GbTechnicalCommitteeType
+
+GbStandardType <-- GbStandardScope
+GbStandardType <-- GbStandardMandate
+GbStandardType <-- GbStandardPrefix
+
+
+@enduml
