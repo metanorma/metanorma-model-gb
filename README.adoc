@@ -10,11 +10,11 @@ Details of the parent model can be found on its page.
 
 == GbDoc Models
 
-image::images/png/GbDocModel__GbDocModel_0.png[]
+image::images/GbDoc_GbDoc.png[]
 
 == GbStandardPrefix Model
 
-image::images/png/GbDocModel__GbStandardPrefix_1.png[]
+image::images/GbDoc_GbStandardPrefix.png[]
 
 
 == GB Standard Document cover page elements
