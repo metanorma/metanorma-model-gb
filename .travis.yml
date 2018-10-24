@@ -3,7 +3,7 @@ before_install:
   - travis_retry sudo apt-get update
   - travis_retry sudo apt-get install -y curl
 install:
-  - curl https://gist.githubusercontent.com/ronaldtse/8be50372781b0e64929004c29a6dc325/raw/3c77f2ac52729ac538f6ebd955b8e3b95eb0ac3c/install-plantuml.sh | bash
+  - sudo bash -c "curl https://gist.githubusercontent.com/ronaldtse/8be50372781b0e64929004c29a6dc325/raw/3c77f2ac52729ac538f6ebd955b8e3b95eb0ac3c/install-plantuml.sh | bash"
 env:
   global:
     - JAVA_OPTS="java.awt.headless=true"
