@@ -94,7 +94,7 @@ enum GbStandardSectorPrefix <<enumeration>>{
     YD_communication
     GY_media
     DL_electricity
-    JR_finantial
+    JR_financial
     HY_oceanic
     DA_archiving
     SN_inspection
