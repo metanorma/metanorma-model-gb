@@ -6,9 +6,9 @@ name: GbStandardSocialPrefix
 modelType: enum
 type: enumeration
 values:
-    prefix:
-      definition:
-      Value: "T"
-    groupCode:
-      definition:
-        value: "XXX"
+  prefix:
+    definition:
+    Value: "T"
+  groupCode:
+    definition:
+      value: "XXX"
