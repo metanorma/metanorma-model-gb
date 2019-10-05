@@ -1,0 +1,20 @@
+name: GbStandardType
+modelType: class
+definition: |
+
+attributes:
+  scope:
+    definition:
+    type: GbStandardScope
+  prefix:
+    definition:
+    type: GbStandardPrefix
+  mandate:
+    definition:
+    type: GbStandardMandate
+relations:
+  - target: GbBibliographicItem
+    relationship:
+      target:
+        type: direct
+    direction: up  

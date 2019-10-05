@@ -1,0 +1,7 @@
+# ZB_categorycode example:ZBA is general, ZBB is agricultural, ZBC is medical, etc.
+name: GbStandardProfessionalPrefix
+modelType: enum
+type: enumeration
+values:
+    ZB_categorycode:
+      definition:

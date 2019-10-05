@@ -1,0 +1,12 @@
+name: GbStandardDocument
+modelType: class
+definition: |
+
+attributes:
+
+relations:
+  - target: IsoStandardDocument
+    relationship:
+      target:
+        type: inheritance
+    direction: up  

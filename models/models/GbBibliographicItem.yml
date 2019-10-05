@@ -1,0 +1,46 @@
+name: GbBibliographicItem
+modelType: class
+definition: |
+
+attributes:
+  committee:
+    definition:
+    type: GbTechnicalCommittee
+    cardinality:
+      min: 0
+      max: 1
+  gbtype:
+    definition:
+    type: GbStandardType
+  topic:
+    definition:
+    type: GbStandardTopic
+    cardinality:
+      min: 0
+      max: 1
+  ccs:
+    definition:
+    type: Ccs
+    cardinality:
+      min: 1
+      max: "*"
+  planNumber:
+    definition:
+    type: String
+    cardinality:
+      min: 0
+      max: 1
+  type:
+    definition:
+    type: GbDocumentType
+relations:
+  - target: IsoBibliographicItem
+    relationship:
+      target:
+        type: inheritance
+    direction: up  
+  - target: GbStandardDocument
+    relationship:
+      target:
+        type: direct
+    direction: up  

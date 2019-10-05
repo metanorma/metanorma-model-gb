@@ -1,0 +1,8 @@
+name: GbTechnicalCommitteeType
+modelType: enum
+type: enumeration
+values:
+  technical:
+    definition:
+  provisional:
+    definition:

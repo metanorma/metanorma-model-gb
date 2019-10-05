@@ -1,0 +1,13 @@
+# If a GbStandardNationalPrefix or GbStandardSectorPrefix is 'recommended' then add a '/T' suffix to the prefix; if 'guideline' add a '/Z' to suggix
+name: GbStandardNationalPrefix
+modelType: enum
+type: enumeration
+values:
+  GB_national:
+    definition:
+  GBn_confidential:
+    definition:
+  GJB_military:
+    definition:
+  GSB_physical:
+    definition:

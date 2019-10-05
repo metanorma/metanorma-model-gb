@@ -1,0 +1,10 @@
+# Format: "Q/XXX YYYY-ZZZZ"
+# - XXX 3 (or more) characters enterprise identified (any characters)
+# - YYYY = 4 characters document code
+# - ZZZZ = 4 characters year
+name: GbStandardEnterprisePrefix
+modelType: enum
+type: enumeration
+values:
+    Q:
+      definition:

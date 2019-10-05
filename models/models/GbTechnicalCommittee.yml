@@ -1,0 +1,17 @@
+name: GbTechnicalCommittee
+modelType: class
+definition: |
+
+attributes:
+  type:
+    definition:
+    type: GbtechnicalCommitteeType
+  name:
+    definition:
+    type: String
+relations:
+  - target: GbBibliographicItem
+    relationship:
+      target:
+        type: direct
+    direction: right  
