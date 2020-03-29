@@ -1,5 +1,9 @@
 = Metanorma GbDoc Models
 
+image:https://github.com/metanorma/metanorma-model-gb/workflows/ubuntu/badge.svg["Ubuntu Build Status", link="https://github.com/metanorma/metanorma-model-gb/actions?query=workflow%3Aubuntu"]
+image:https://github.com/metanorma/metanorma-model-gb/workflows/macos/badge.svg["OSX Build Status", link="https://github.com/metanorma/metanorma-model-gb/actions?query=workflow%3Amacos"]
+image:https://github.com/metanorma/metanorma-model-gb/workflows/windows/badge.svg["Windows Build Status", link="https://github.com/metanorma/metanorma-model-gb/actions?query=workflow%3Awindows"]
+
 This is where we keep the Metanorma GbDoc model definitions.
 
 The GbDoc format is an instance of the
