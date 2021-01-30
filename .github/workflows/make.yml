@@ -46,6 +46,7 @@ jobs:
   tests-passed:
     needs: make
     runs-on: ubuntu-latest
+    continue-on-error: true
     steps:
       - name: Trigger tests passed event
         uses: Sibz/github-status-action@v1
