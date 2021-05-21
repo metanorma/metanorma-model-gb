@@ -1,0 +1,42 @@
+diagram GbDoc-GbStandardPrefix {
+
+  include ../models/GbBibliographicItem/GbStandardPrefix.lutaml
+  include ../models/GbBibliographicItem/GbStandardNationalPrefix.lutaml
+  include ../models/GbBibliographicItem/GbStandardSectorPrefix.lutaml
+  include ../models/GbBibliographicItem/GbStandardProfessionalPrefix.lutaml
+  include ../models/GbBibliographicItem/GbStandardLocalPrefix.lutaml
+  include ../models/GbBibliographicItem/GbStandardEnterprisePrefix.lutaml
+  include ../models/GbBibliographicItem/GbStandardSocialPrefix.lutaml
+
+  association {
+    owner GbStandardPrefix
+    member GbStandardNationalPrefix
+    owner_type inheritance
+  }
+  association {
+    owner GbStandardPrefix
+    member GbStandardSectorPrefix
+    owner_type inheritance
+  }
+  association {
+    owner GbStandardPrefix
+    member GbStandardProfessionalPrefix
+    owner_type inheritance
+  }
+  association {
+    owner GbStandardPrefix
+    member GbStandardLocalPrefix
+    owner_type inheritance
+  }
+  association {
+    owner GbStandardPrefix
+    member GbStandardEnterprisePrefix
+    owner_type inheritance
+  }
+  association {
+    owner GbStandardPrefix
+    member GbStandardSocialPrefix
+    owner_type inheritance
+  }
+
+}
