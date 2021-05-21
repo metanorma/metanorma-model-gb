@@ -9,6 +9,6 @@ class GbStandardLocalPrefix {
     * ZZZZ year: 4 characters
   }
 
-  prefix: String = "DB"
-  locationCode: GbLocalCode
+  locationCode: GbLocalCodes
+  prefix: String 
 }

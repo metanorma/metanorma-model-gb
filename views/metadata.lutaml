@@ -1,15 +1,15 @@
 diagram GbMetadata {
 
-  include ../models/gb_document/GbStandardPrefix.lutaml
-  include ../models/gb_document/GbStandardNationalPrefix.lutaml
-  include ../models/gb_document/GbStandardSectorPrefix.lutaml
-  include ../models/gb_document/GbSectorCodes.lutaml
-  include ../models/gb_document/GbStandardProfessionalPrefix.lutaml
-  include ../models/gb_document/GbProfessionCodes.lutaml
-  include ../models/gb_document/GbStandardLocalPrefix.lutaml
-  include ../models/gb_document/GbLocalCodes.lutaml
-  include ../models/gb_document/GbStandardEnterprisePrefix.lutaml
-  include ../models/gb_document/GbStandardSocialPrefix.lutaml
+  include ../models/gb_document/metadata/GbStandardPrefix.lutaml
+  include ../models/gb_document/metadata/GbStandardNationalPrefix.lutaml
+  include ../models/gb_document/metadata/GbSectorCodes.lutaml
+  include ../models/gb_document/metadata/GbStandardSectorPrefix.lutaml
+  include ../models/gb_document/metadata/GbProfessionCodes.lutaml
+  include ../models/gb_document/metadata/GbStandardProfessionalPrefix.lutaml
+  include ../models/gb_document/metadata/GbLocalCodes.lutaml
+  include ../models/gb_document/metadata/GbStandardLocalPrefix.lutaml
+  //include ../models/gb_document/metadata/GbStandardEnterprisePrefix.lutaml
+  //include ../models/gb_document/metadata/GbStandardSocialPrefix.lutaml
 
   association {
     owner GbStandardPrefix

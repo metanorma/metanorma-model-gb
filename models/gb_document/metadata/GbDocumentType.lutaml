@@ -1,14 +1,36 @@
 enum GbDocumentType {
-  defintion {
+  definition {
     Type of Chinese standard document.
   }
 
-  internationalStandard
-  technicalSpecification
-  technicalReport
-  publiclyAvailableSpecification
-  internationalWorkshopAgreement
-  guide
-  recommendation
-}
+  standard {
+    definition {
+      Standard.
+    }
+  }
 
+  technical-specification {
+    definition {
+      Technical specification.
+    }
+  }
+
+  technical-report {
+    definition {
+      Technical report.
+    }
+  }
+
+  publicly-available-specification {
+    definition {
+      Publicly available specification.
+    }
+  }
+
+  guide {
+    definition {
+      Guide.
+    }
+  }
+  
+}

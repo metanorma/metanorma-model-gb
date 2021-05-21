@@ -9,6 +9,6 @@ class GbStandardSocialPrefix {
     * ZZZZ year: 4 characters
   }
 
-  prefix: String = "T/"
   groupCode: Character[3]
+  prefix: String
 }

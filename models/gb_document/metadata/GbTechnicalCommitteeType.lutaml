@@ -3,7 +3,15 @@ enum GbTechnicalCommitteeType {
     Type of Chinese standard committee.
   }
 
-  technical
-  provisional
+  technical {
+    definition {
+      Technical committee.
+    }
+  }
+  provisional {
+    definition {
+      Provisional committee.
+    }
+  }
 }
 

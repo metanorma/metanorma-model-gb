@@ -4,12 +4,12 @@ class GbStandardEnterprisePrefix {
 
     Format: "Q/XXX YYYY-ZZZZ"
 
-    * enterprise identified: XXX 3 or more characters
+    * XXX enterprise code: 3 or more characters
     * YYYY document code: 4 characters
     * ZZZZ year: 4 characters
   }
 
-  prefix: String = "Q/"
   enterpriseCode: Character[3]
+  prefix: String
 }
 
