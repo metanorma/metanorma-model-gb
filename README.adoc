@@ -9,15 +9,15 @@ https://github.com/metanorma/isodoc-models[Metanorma IsoDoc model].
 Details of the parent model can be found on its page.
 
 
-== GbDoc Models
+== GB Document
 
-image::images/GbDoc_GbDoc.png[]
+image::images/document.png[]
 
-== GbStandardPrefix Model
+== GB Metadata
 
-image::images/GbDoc_GbStandardPrefix.png[]
+image::images/metadata.png[]
 
 
-== GB Standard Document cover page elements
+== GB cover page elements
 
 image::images/gb-standard-coverpage-elements.png[]
