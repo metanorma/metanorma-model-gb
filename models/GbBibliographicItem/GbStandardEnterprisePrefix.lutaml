@@ -1,0 +1,14 @@
+enum GbStandardEnterprisePrefix {
+  definition {
+    Prefix for a Chinese enterprise standard document identifier.
+
+    Format: "Q/XXX YYYY-ZZZZ"
+
+    * enterprise identified: XXX 3 or more characters
+    * YYYY document code: 4 characters
+    * ZZZZ year: 4 characters
+  }
+
+  Q
+}
+

@@ -1,0 +1,9 @@
+enum GbTechnicalCommitteeType {
+  definition {
+    Type of Chinese standard committee.
+  }
+
+  technical
+  provisional
+}
+

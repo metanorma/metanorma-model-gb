@@ -1,95 +1,38 @@
 diagram GbDoc-GbDoc {
-  
-  
+
+
   class IsoStandardDocument {
-  
+
   }
-  
+
   class GbStandardDocument{
-  
+
   }
-  
+
   class IsoBibliographicItem{
-  
+
   }
-  
+
   class GbBibliographicItem{
-      +committee: GbTechnicalCommittee[0..1]
-      +gbtype: GbStandardType
-      +topic: GbStandardTopic[0..1]
-      +ccs: Ccs[1..*]
-      +planNumber: String[0..1]
-      +type: GbDocumentType
-  }
-  
   class Ccs{
-      +code: String
-      +text: String[0..1]
-  }
-  
   class GbTechnicalCommittee{
-      +type: GbtechnicalCommitteeType
-      +name: String
-  }
-  
   class GbStandardType{
-      +scope: GbStandardScope
-      +prefix: GbStandardPrefix
-      +mandate: GbStandardMandate
-  }
-  
   class GbStandardPrefix{
-  
-  }
-  
   enum GbTechnicalCommitteeType <<enumeration>>{
-      technical
-      provisional
-  }
-  
   enum GbStandardScope <<enumeration>>{
-      natural
-      sector
-      professional
-      local
-      enterprise
-      social_group
-  }
-  
+
   enum GbStandardMandate <<enumeration>>{
-      mandatory
-      recommended
-      guideline
-  }
-  
+
   enum GbStandardTopic <<enumeration>>{
-      basic
-      health_and_safety
-      environment_protection
-      engineering_and_construction
-      product
-      method
-      management_techniques
-      others
-  }
-  
   enum GbDocumentType <<enumeration>>{
-      internatioanlStandard
-      technicalSpecification
-      technicalReport
-      publiclyAvailableSpecification
-      internationalWorkshopAgreement
-      guide
-      recommendation
-  }
-  
-  
+
+
   association {
     owner IsoStandardDocument
     member GbStandardDocument
     owner_type inheritance
   }
-  
+
   association {
     owner IsoBibliographicItem
     member GbBibliographicItem
@@ -100,7 +43,7 @@ diagram GbDoc-GbDoc {
     member GbBibliographicItem
     owner_type direct
   }
-  
+
   association {
     owner GbBibliographicItem
     member Ccs
@@ -126,14 +69,14 @@ diagram GbDoc-GbDoc {
     member GbDocumentType
     owner_type direct
   }
-  
-  
+
+
   association {
     owner GbTechnicalCommittee
     member GbTechnicalCommitteeType
     owner_type direct
   }
-  
+
   association {
     owner GbStandardType
     member GbStandardScope
@@ -149,6 +92,6 @@ diagram GbDoc-GbDoc {
     member GbStandardPrefix
     owner_type direct
   }
-  
-  
+
+
 }
