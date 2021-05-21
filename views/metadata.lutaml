@@ -8,8 +8,8 @@ diagram GbMetadata {
   include ../models/gb_document/metadata/GbStandardProfessionalPrefix.lutaml
   include ../models/gb_document/metadata/GbLocalCodes.lutaml
   include ../models/gb_document/metadata/GbStandardLocalPrefix.lutaml
-  //include ../models/gb_document/metadata/GbStandardEnterprisePrefix.lutaml
-  //include ../models/gb_document/metadata/GbStandardSocialPrefix.lutaml
+  include ../models/gb_document/metadata/GbStandardEnterprisePrefix.lutaml
+  include ../models/gb_document/metadata/GbStandardSocialPrefix.lutaml
 
   association {
     owner GbStandardPrefix
