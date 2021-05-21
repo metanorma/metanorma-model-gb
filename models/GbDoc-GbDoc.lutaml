@@ -1,0 +1,154 @@
+diagram GbDoc-GbDoc {
+  
+  
+  class IsoStandardDocument {
+  
+  }
+  
+  class GbStandardDocument{
+  
+  }
+  
+  class IsoBibliographicItem{
+  
+  }
+  
+  class GbBibliographicItem{
+      +committee: GbTechnicalCommittee[0..1]
+      +gbtype: GbStandardType
+      +topic: GbStandardTopic[0..1]
+      +ccs: Ccs[1..*]
+      +planNumber: String[0..1]
+      +type: GbDocumentType
+  }
+  
+  class Ccs{
+      +code: String
+      +text: String[0..1]
+  }
+  
+  class GbTechnicalCommittee{
+      +type: GbtechnicalCommitteeType
+      +name: String
+  }
+  
+  class GbStandardType{
+      +scope: GbStandardScope
+      +prefix: GbStandardPrefix
+      +mandate: GbStandardMandate
+  }
+  
+  class GbStandardPrefix{
+  
+  }
+  
+  enum GbTechnicalCommitteeType <<enumeration>>{
+      technical
+      provisional
+  }
+  
+  enum GbStandardScope <<enumeration>>{
+      natural
+      sector
+      professional
+      local
+      enterprise
+      social_group
+  }
+  
+  enum GbStandardMandate <<enumeration>>{
+      mandatory
+      recommended
+      guideline
+  }
+  
+  enum GbStandardTopic <<enumeration>>{
+      basic
+      health_and_safety
+      environment_protection
+      engineering_and_construction
+      product
+      method
+      management_techniques
+      others
+  }
+  
+  enum GbDocumentType <<enumeration>>{
+      internatioanlStandard
+      technicalSpecification
+      technicalReport
+      publiclyAvailableSpecification
+      internationalWorkshopAgreement
+      guide
+      recommendation
+  }
+  
+  
+  association {
+    owner IsoStandardDocument
+    member GbStandardDocument
+    owner_type inheritance
+  }
+  
+  association {
+    owner IsoBibliographicItem
+    member GbBibliographicItem
+    owner_type inheritance
+  }
+  association {
+    owner GbStandardDocument
+    member GbBibliographicItem
+    owner_type direct
+  }
+  
+  association {
+    owner GbBibliographicItem
+    member Ccs
+    owner_type direct
+  }
+  association {
+    owner GbBibliographicItem
+    member GbTechnicalCommittee
+    owner_type direct
+  }
+  association {
+    owner GbBibliographicItem
+    member GbStandardType
+    owner_type direct
+  }
+  association {
+    owner GbBibliographicItem
+    member GbStandardTopic
+    owner_type direct
+  }
+  association {
+    owner GbBibliographicItem
+    member GbDocumentType
+    owner_type direct
+  }
+  
+  
+  association {
+    owner GbTechnicalCommittee
+    member GbTechnicalCommitteeType
+    owner_type direct
+  }
+  
+  association {
+    owner GbStandardType
+    member GbStandardScope
+    owner_type direct
+  }
+  association {
+    owner GbStandardType
+    member GbStandardMandate
+    owner_type direct
+  }
+  association {
+    owner GbStandardType
+    member GbStandardPrefix
+    owner_type direct
+  }
+  
+  
+}
