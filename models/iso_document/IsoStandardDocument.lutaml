@@ -1,0 +1,5 @@
+class IsoStandardDocument {
+  definition {
+    ISO Standards document.
+  }
+}

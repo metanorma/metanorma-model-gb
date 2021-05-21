@@ -1,4 +1,4 @@
-enum GbStandardEnterprisePrefix {
+class GbStandardEnterprisePrefix {
   definition {
     Prefix for a Chinese enterprise standard document identifier.
 
@@ -9,6 +9,7 @@ enum GbStandardEnterprisePrefix {
     * ZZZZ year: 4 characters
   }
 
-  Q
+  prefix: String = "Q/"
+  enterpriseCode: Character[3]
 }
 

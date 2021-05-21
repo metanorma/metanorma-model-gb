@@ -1,0 +1,5 @@
+class GbStandardDocument {
+  definition {
+    Chinese standard document.
+  }
+}

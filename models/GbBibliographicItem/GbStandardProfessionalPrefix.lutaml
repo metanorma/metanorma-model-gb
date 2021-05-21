@@ -1,4 +1,0 @@
-enum GbStandardProfessionalPrefix <<enumeration>>{
-    ZB_categorycode
-}
-note bottom of GbStandardProfessionalPrefix: ZB_categorycode example:\nZBA is general, ZBB is\nagricultural, ZBC is medical,\netc.

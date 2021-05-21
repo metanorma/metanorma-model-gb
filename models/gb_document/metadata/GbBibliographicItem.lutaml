@@ -1,6 +1,6 @@
-class GbBibliographicItem{
+class GbBibliographicItem {
   definition {
-    Represents metadata of a Chinese standard.
+    Bibliographic description of a Chinese standard.
 
     Adoption from international standards is achieved using BibliographicItem.relations:
 

@@ -1,12 +1,15 @@
-diagram GbDoc-GbStandardPrefix {
+diagram GbMetadata {
 
-  include ../models/GbBibliographicItem/GbStandardPrefix.lutaml
-  include ../models/GbBibliographicItem/GbStandardNationalPrefix.lutaml
-  include ../models/GbBibliographicItem/GbStandardSectorPrefix.lutaml
-  include ../models/GbBibliographicItem/GbStandardProfessionalPrefix.lutaml
-  include ../models/GbBibliographicItem/GbStandardLocalPrefix.lutaml
-  include ../models/GbBibliographicItem/GbStandardEnterprisePrefix.lutaml
-  include ../models/GbBibliographicItem/GbStandardSocialPrefix.lutaml
+  include ../models/gb_document/GbStandardPrefix.lutaml
+  include ../models/gb_document/GbStandardNationalPrefix.lutaml
+  include ../models/gb_document/GbStandardSectorPrefix.lutaml
+  include ../models/gb_document/GbSectorCodes.lutaml
+  include ../models/gb_document/GbStandardProfessionalPrefix.lutaml
+  include ../models/gb_document/GbProfessionCodes.lutaml
+  include ../models/gb_document/GbStandardLocalPrefix.lutaml
+  include ../models/gb_document/GbLocalCodes.lutaml
+  include ../models/gb_document/GbStandardEnterprisePrefix.lutaml
+  include ../models/gb_document/GbStandardSocialPrefix.lutaml
 
   association {
     owner GbStandardPrefix

@@ -1,0 +1,5 @@
+class IsoBibliographicItem {
+  definition {
+    Bibliographic description of an ISO document.
+  }
+}

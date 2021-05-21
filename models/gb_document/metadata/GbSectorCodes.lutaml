@@ -1,6 +1,8 @@
-enum GbStandardSectorPrefix <<enumeration>>{
+enum GbSectorCodes {
+
   definition {
-    Sector codes for Chinese sector standards.
+    Code representing a sector allowed in Chinese sector
+    standards.
   }
 
   AQ_production_safety {
@@ -642,5 +644,3 @@ enum GbStandardSectorPrefix <<enumeration>>{
       Administration (Chinese):: 国家中医药管理局
     }
   }
-
-}

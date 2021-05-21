@@ -1,4 +1,4 @@
-enum GbStandardLocalPrefix {
+class GbStandardLocalPrefix {
   definition {
     Prefix for a Chinese local standard document identifier.
 
@@ -9,5 +9,6 @@ enum GbStandardLocalPrefix {
     * ZZZZ year: 4 characters
   }
 
-  DBXX
+  prefix: String = "DB"
+  locationCode: GbLocalCode
 }

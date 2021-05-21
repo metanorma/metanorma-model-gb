@@ -1,4 +1,4 @@
-enum GbLocalCode {
+enum GbLocalCodes {
   definition {
     Chinese provincial location code.
   }
