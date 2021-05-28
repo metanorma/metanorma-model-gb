@@ -29,6 +29,6 @@ views:
 	mkdir views
 
 clean:
-	$(RM) $(PNG)
+	$(RM) images/*.png
 
 .PHONY: clean
